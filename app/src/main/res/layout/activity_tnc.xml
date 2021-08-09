@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:text="TERMS AND CONDITIONS"/>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#9D9E9C"
+        android:textAlignment="center"
+        android:layout_margin="25dp"
+        android:textStyle="italic"
+        android:text="The user takes responsibility for the correctness of information supplied by him to the Bank through the use of the said facility or any other means such as electronic mail or written communication.
+
+The Bank agrees that it shall, to the best of its ability and effort, try to provide accurate information at all times. However, the Bank shall not be responsible for any inadvertent errors or omissions that may occur due to reasons beyond the control of the Bank.
+
+The Bank shall not be responsible for any incidental error which occurs in spite of necessary steps taken by the bank to ensure the accuracy of the information provided to the user. The user shall not have any claim against the bank in the event of any loss/damage suffered by the user as a consequence of the inaccurate information provided by the bank."
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>
